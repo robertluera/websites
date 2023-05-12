@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em; /* adjust as needed */
+}
+
+.container {
+  display: flex;
+  height: 400px;/*calc(100% - 60px); /* adjust as needed */
+  border: 5px solid black;
+
+}
+
+.split {
+  height: 200px;/*calc(100% - 60px); /* adjust as needed */
+  width: 50%;
+  position: relative;
+  overflow-x: hidden;
+  text-align: center;
+  margin: 100px 0;
+
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+  color: white;
+  /*padding: 20px;*/
+  padding: 10px 30px;
+}
+
+.right {
+  right: 0;
+  background-color: #ddd;
+  padding: 10px 30px;
+}
